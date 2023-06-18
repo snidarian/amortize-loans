@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "amortize-loans"
+version = "0.1.0"
+description = ""
+authors = ["snidarian", "caerulescens"]
+readme = "README.rst"
+packages = [{include = "amortize_loans"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
